@@ -1,0 +1,26 @@
+body {
+  width: 100%;
+  margin: auto;
+  background-color: rgba(200, 200, 200, 0.005); 
+  /* This is another unexpected "gotcha". If the window is fully transparent and 
+  border radius is not 50% or 0%, the background will show as black. You can try
+  for yourself. This is almost completely transparent, and seems to work, at least
+  on my Mac */
+  overflow: hidden;
+}
+
+#cover {
+  position: relative;
+  display: inline-block;
+  object-fit: cover;
+  overflow: hidden;
+  -webkit-app-region: drag;
+  border: 1px solid black;
+}
+
+video {
+  top: 0px;
+  /*width: 100%;*/
+  position: absolute;
+  z-index: -1;
+}

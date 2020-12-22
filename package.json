@@ -1,0 +1,18 @@
+{
+  "name": "Guillotine",
+  "version": "0.0.1",
+  "description": "Get a floating head for your online presentations",
+  "main": "src/js/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/rberenguel/Guillotine",
+  "keywords": [
+    "video", "presentations"
+  ],
+  "author": "Ruben Berenguel",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^11.0.4"
+  }
+}

@@ -1,0 +1,29 @@
+body {
+  width: 00px;
+  height: 600px;
+  overflow: hidden;
+  position: fixed;
+  background: black;
+}
+
+#video-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+video {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+#cover {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  display: block;
+  border: 2px dashed blue;
+  z-index: 300000;
+}

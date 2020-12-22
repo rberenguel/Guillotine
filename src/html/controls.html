@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'"
+    />
+    <link rel="stylesheet" href="../css/controls.css" />
+  </head>
+
+  <body>
+    <div id="video-wrapper">
+      <div id="cover" style="height: 200px; width: 200px"></div>
+      <video
+        id="video"
+        autoplay
+        style="width: 800px; height: 600px; top: 0px; left: 0px; scale: 1"
+      ></video>
+    </div>
+    <script src="../js/common.js"></script>
+    <script src="../js/controls-renderer.js"></script>
+    <script src="../js/drag-controls.js"></script>
+  </body>
+</html>
