@@ -34,3 +34,7 @@ Anybody that knows me at all is aware I'm not a fan of Electron applications. La
 - It's not the prettiest app (or icon, I'm not a designer!).
 - It doesn't even have tests (ugh!) 
 - BUT gets the job done (on my machine at least)
+
+---
+
+<a href="https://www.buymeacoffee.com/rberenguel" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="51" width="217"></a>
