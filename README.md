@@ -11,6 +11,8 @@ Guillotine is an Electron (sorry) application to solve this. It allows you to ha
 
 _NOTE_: On MacOS you will need to have the presentation in a window (since full screen apps don't allow anything on top of them).
 
+See also [GuillotineJS](https://github.com/rberenguel/GuillotineJS) for a HTML and Javascript version you can use for web-based presentations. _GuillotineJS_ can solve the issue of _Guillotine_ not working for full-screen presentations.
+
 <img src="readme_resources/screenshot.png" width="760"/></a>
 
 Here you can see a small animation of how to use it. I've tried to make it as easy as possible, at least as long as you have a mouse with scrollwheel. If that's not the case, there are also keyboard controls to resize everything.
